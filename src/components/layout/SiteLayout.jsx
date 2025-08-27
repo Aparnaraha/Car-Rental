@@ -4,6 +4,7 @@ import TopHeader from './TopHeader';
 import NavigationBar from './NavigationBar';
 import TopFooter from './TopFooter';
 import SiteFooter from './SiteFooter';
+import EnquiryLocateUs from '../ui/EnquiryLocateUs';
 
 // The SiteLayout component is a container for all pages, providing a consistent header and footer.
 const SiteLayout = ({ children }) => {
@@ -16,6 +17,7 @@ const SiteLayout = ({ children }) => {
         {children}
       </main>
       <TopFooter />
+      <EnquiryLocateUs/>
       <SiteFooter />
     </div>
   );
